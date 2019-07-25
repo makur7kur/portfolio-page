@@ -1,0 +1,303 @@
+/*Body CSS*/
+
+body {
+    overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
+    color: #505962;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*End Body CSS*/
+/*Navigation Bar*/
+.navbar {
+    display: flex;
+    background-color: rgb(36, 24, 24);
+    width: 100%;
+    height: auto;
+    justify-content: flex-end;
+    position: fixed;
+
+
+}
+
+.nav-link {
+    display: flex;
+    list-style: none;
+    flex-flow: row nowrap;
+}
+
+.nav-link li {
+    text-align: center;
+    margin: 5px 20px;
+    font-size: 25px
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    letter-spacing: .1rem
+}
+
+li a:hover {
+    color: aqua;
+    text-shadow: .1rem .1rem .8rem black;
+
+}
+
+
+/*End of Navigation Bar*/
+
+/*Banner Start*/
+
+.container {
+    display: flex;
+    background-image: url(img/web.jpg);
+    height: 100vh;
+    margin: 0px;
+    flex-direction: row;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+
+
+.header {
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 3.8rem;
+    font-weight: 500;
+    text-shadow: .1rem .1rem .8rem black;
+    margin: auto;
+}
+
+.header h4 {
+    font-size: 2.8rem;
+    letter-spacing: .1rem;
+    font-weight: 250;
+    text-shadow: .1rem .1rem .8rem black;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.header-btn {
+    background-color: rgba(255, 255, 255, 0);
+    margin: auto;
+    margin-top: 10%;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.header-btn:hover {
+    background-color: white;
+
+}
+
+.header-btn a {
+    text-decoration: none;
+    font-size: 2.3rem;
+    color: white;
+
+}
+
+.header-btn a:hover {
+    color: rgb(157, 112, 74);
+}
+
+/*Banner End*/
+
+/*Project Section*/
+
+.my-projects {
+
+    display: flex;
+    flex-flow: row wrap;
+    background-color: rgb(36, 24, 24);
+    justify-content: space-around;
+    padding: 15px
+}
+
+.project-text {
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin: 2rem
+}
+
+.project-text h1 {
+    font-size: 3.8rem;
+    font-weight: 500;
+    text-shadow: .1rem .1rem .8rem black;
+    margin: auto;
+}
+
+img {
+    width: 380px;
+    height: 300px;
+    border-radius: 10%;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.link p {
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 5px;
+    text-shadow: .1rem .1rem 1rem black;
+}
+
+.link p:hover {
+    color: aqua;
+    text-shadow: .1rem .1rem .8rem black;
+}
+
+/*End of Project Section*/
+
+/*My Contacts Section*/
+.my-contacts {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    text-align: center;
+    background-image: url(img/wood.jpg);
+    color: white;
+}
+
+.contacts-header h1 {
+    font-size: 3.8rem;
+    font-weight: 500;
+    text-shadow: .1rem .1rem .8rem black;
+    margin-bottom: 5px;
+
+}
+
+.contacts-header p {
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 20px;
+    margin-top: 5px;
+    text-shadow: .1rem .1rem 1rem black;
+}
+
+.icon-space a {
+    font-size: 4rem;
+    color: white;
+    text-shadow: .1rem .1rem 1rem black;
+    margin: 10px 35px;
+}
+
+.icon-space a:hover {
+    color: aqua;
+    text-shadow: .1rem .1rem .8rem black;
+}
+
+/*End of My Contacts Section*/
+
+/*Media Queries*/
+@media (max-width: 760px) {
+
+    /*Navbar*/
+    .nav-link li {
+
+        text-align: center;
+        margin: 0px 15px;
+
+        font-size: 15px;
+    }
+
+    /*End of Navbar*/
+
+    /*Banner*/
+    .header h1 {
+        font-size: 1.9rem;
+        font-weight: 80;
+        text-shadow: .1rem .1rem .8rem black;
+        margin: auto;
+    }
+
+    .header h4 {
+        font-size: 1.5rem;
+        letter-spacing: .1rem;
+        font-weight: 150;
+        text-shadow: .1rem .1rem .8rem black;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .header-btn a {
+        text-decoration: none;
+        font-size: 1.5rem;
+        color: white;
+
+    }
+
+    /*End of Banner*/
+
+    /*Project section*/
+    .project-text h1 {
+        font-size: 1.9rem;
+        font-weight: 80;
+        text-shadow: .1rem .1rem .8rem black;
+        margin: auto;
+    }
+
+    img {
+        width: 180px;
+        height: 180px;
+        border-radius: 7%;
+    }
+
+    .link p {
+        color: white;
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: 600;
+        margin-top: 5px;
+        text-shadow: .1rem .1rem 1rem black;
+    }
+
+    /*End of Project Section*/
+    
+    
+    /*Contacts Section*/
+    .contacts-header h1 {
+    font-size: 1.9rem;
+    font-weight: 80;
+    text-shadow: .1rem .1rem .8rem black;
+    margin-bottom: 15px;
+
+}
+
+.contacts-header p {
+    color: white;
+    text-align: center;
+    font-size: 1.2rem;
+    
+    margin: 20px;
+   
+    
+}
+
+.icon-space a {
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: .1rem .1rem 1rem black;
+    margin: 10px 15px;
+}
+    
+    /*End of Contacts Section*/
+}
+
+/*End Media Queries*/
