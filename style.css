@@ -52,7 +52,7 @@ li a:hover {
 
 .container {
     display: flex;
-    background-image: url(portfolio-page/web.jpg);
+    background-image: url(https://github.com/makur7kur/portfolio-page/blob/master/web.jpg?raw=true);
     height: 100vh;
     margin: 0px;
     flex-direction: row;
@@ -169,7 +169,7 @@ img {
     flex-flow: column wrap;
     align-content: center;
     text-align: center;
-    background-image: url(https://github.com/makur7kur/portfolio-page/blob/master/web.jpg?raw=true);
+    background-image: url(https://github.com/makur7kur/portfolio-page/blob/master/wood.jpg?raw=true);
     color: white;
 }
 
