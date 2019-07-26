@@ -52,7 +52,7 @@ li a:hover {
 
 .container {
     display: flex;
-    background-image: url(web.jpg);
+    background-image: url(portfolio-page/web.jpg);
     height: 100vh;
     margin: 0px;
     flex-direction: row;
